@@ -6,16 +6,18 @@ public class Main {
 		
 		Laptop a1 = new Laptop();
 		Laptop a2 = new Laptop(3.5, 8, "ASUS", 12);
-		Laptop a3 = new Laptop(3.6, 16, "MacBook", 15, 47000);
+		Laptop a3 = new Laptop(3.6, 16, "MacBook", 15, 47000, 30, 1.83);
 		
 		a1.to_string();
 		a2.to_string();
 		a3.to_string();
 		
 		/*
-		a1.reset_values(2.2, 8, "HP", 13, 22000);
+		a1.reset_values(2.2, 8, "HP", 13, 22000, 11, 3.2);
 		a1.to_string();
 		a2.set_price(13000);
+		a2.set_number(1);
+		a2.set_weight(2.5);
 		a2.to_string();
 		a3.to_string();
 		*/
