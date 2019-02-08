@@ -12,16 +12,6 @@ public class Main {
 		a2.to_string();
 		a3.to_string();
 		
-		/*
-		a1.reset_values(2.2, 8, "HP", 13, 22000, 11, 3.2);
-		a1.to_string();
-		a2.set_price(13000);
-		a2.set_number(1);
-		a2.set_weight(2.5);
-		a2.to_string();
-		a3.to_string();
-		*/
-		
 		Laptop.print_static​_number_of_monitors();
 		a1.print_number_of_monitors();
 	}
