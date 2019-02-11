@@ -4,16 +4,16 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Laptop a1 = new Laptop();
-		Laptop a2 = new Laptop(3.5, 8, "ASUS", 12);
-		Laptop a3 = new Laptop(3.6, 16, "MacBook", 15, 47000, 30, 1.83);
+		Laptop laptop1 = new Laptop();
+		Laptop laptop2 = new Laptop(3.5, 8, "ASUS", 12);
+		Laptop laptop3 = new Laptop(3.6, 16, "MacBook", 15, 47000, 30, 1.83);
 		
-		a1.to_string();
-		a2.to_string();
-		a3.to_string();
-		
-		Laptop.print_static​_number_of_monitors();
-		a1.print_number_of_monitors();
+	    System.out.println(laptop1.toString());
+	    System.out.println(laptop2.toString());
+	    System.out.println(laptop3.toString());
+
+		Laptop.printStatic​NumberOfMonitors();
+		laptop1.printNumberOfMonitors();
 	}
 
 }
