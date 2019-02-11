@@ -27,10 +27,10 @@ public Laptop(double speedOfCPU, double capacityOfRAM, String name, double sizeO
 	this.weight = weight;
 }
 
+public Laptop(double speedOfCPU, double capacityOfRAM, String name, double sizeOfDisplay) {
+	this(speedOfCPU, capacityOfRAM, name, sizeOfDisplay, 0.0, 0, 0.0);
+}
 
-
-
-@Override
 public String toString() {
 	String information;
 	information = "name = "+name+"\n";
@@ -43,10 +43,6 @@ public String toString() {
 	return information;
 }
 
-public Laptop(double speedOfCPU, double capacityOfRAM, String name, double sizeOfDisplay) {
-	this(speedOfCPU, capacityOfRAM, name, sizeOfDisplay, 0.0, 0, 0.0);
-}
-
 public static void printStatic​NumberOfMonitors() {
 	System.out.println("number of monitors = "+numberOfMonitors);
 }
@@ -55,7 +51,7 @@ public void printNumberOfMonitors() {
 	System.out.println("number of monitors = "+numberOfMonitors);
 }
 
-public void reset_values(double speedOfCPU, double capacityOfRAM, String name, double sizeOfDisplay, double price, int number, double weight) {
+public void resetValues(double speedOfCPU, double capacityOfRAM, String name, double sizeOfDisplay, double price, int number, double weight) {
 	this.speedOfCPU = speedOfCPU;
 	this.capacityOfRAM = capacityOfRAM;
 	this.name = name;
